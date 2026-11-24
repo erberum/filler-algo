@@ -12,7 +12,7 @@ Runs in ~1 second on M1 Pro using the following optimizations:
 - Pruning of mathematically irrelevant branches
 - Bitboards & precomputed masks for board manipulation
 - Hardware acceleration with POPCNT
-- Branch prediction optimizations
+- Branch friendly control flow in the hot loop
 - ~~Multi-threading~~ (removed as it conflicts with alpha-beta pruning and decreases performance)
 
 ### Extra features
